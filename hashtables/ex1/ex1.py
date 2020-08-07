@@ -28,6 +28,7 @@ def get_indices_of_item_weights(weights, length, limit):
 
 weights_1 = [4,4]
 get_indices_of_item_weights(weights_1,2,8)
+#
 
 
 # So we have a package. it has a weight limit(limit) and a a list of weights
