@@ -22,12 +22,44 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
+
+
 1. Hashing functions
+hashing functions make it possible to search for an element based on keyword.
+a hash function does this by creating an address through hashing.
+the hash is then applied to the key/values so the pairs can be indexed.
+
 2. Collision resolution
+There are many methods that can be used for collision resolution.
+The one I am most familiar with is through using chaining.
+You can resolve a collision by rehashing the locations of all of the elements by using a linked list.
+
+
 3. Performance of basic hash table operations
+
+hash tables are worth using because they usually have a constant runtime aka O(1)!
+to keep hash tables efficient it is best to have a load factor that is less than 70% of the hash table capacity.
+
+
 4. Load factor
+Load factor controlls when a hash table is rehashed to create more space for data.
+It aides in collision resolution.
+
 5. Automatic resizing
+You can automize your resizing by setting a limit for the load factor.
+A good way to do that is to set it up so your table resizes when it exceeds 0.7.
+
 6. Various use cases for hash tables
+
+You could use a hash table to link web pages to keywords. the keywords would be hashed.
+you could use this to create personal search engine based on your favorite keywords.
+this could be a neat way to create a searchable bookmarks library as well.
+
+hash tables are also commonly used in blockchain development to create dApps.
+they store ethereum addresses and value types. Solidity!
+
+you could also make a book reccomender by basing it on keywords but call it genres.
+
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
